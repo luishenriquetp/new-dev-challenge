@@ -13,7 +13,7 @@ const LoaderAnimation = () => {
 
   return (
       <div>
-        <Lottie data-testid="main-title" options={defaultOptions} height={300} width={300} />
+        <Lottie options={defaultOptions} height={300} width={300} />
       </div>
   );
 };

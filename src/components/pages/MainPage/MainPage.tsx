@@ -28,7 +28,7 @@ const MainPage: React.FC = () => {
 
   if (!resources) {
     return (
-      <p>Hi</p>
+      <Loader />
     );
   }
 
